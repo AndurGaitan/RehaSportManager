@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 import {
   Users,
   Calendar,
-  Activity,
   FileText,
   Settings,
   Layout,
   Dumbbell,
-  Command } from
+  Command,
+  BicepsFlexed } from
 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import { cn } from '../../lib/utils';
@@ -50,7 +50,7 @@ export const Sidebar = () => {
     <div className="hidden md:flex h-[calc(100vh-40px)] w-64 flex-col fixed left-0 top-10 bg-white border-r z-10">
       <div className="p-6">
         <h1 className="text-2xl font-bold text-blue-600 flex items-center">
-          <Activity className="h-8 w-8 mr-2" />
+          <BicepsFlexed className="h-8 w-8 mr-2" />
           RehaSport
         </h1>
       </div>
